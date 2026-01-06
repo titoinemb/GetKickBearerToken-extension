@@ -1,0 +1,45 @@
+{
+  "name": "getkickbearertoken-extension",
+  "version": "1.0.0",
+  "description": "a simple extension for get your Kick Bearer token",
+  "keywords": [
+    "extension",
+    "typescript",
+    "ts",
+    "pug",
+    "scss",
+    "firefox",
+    "chromium",
+    "chrome",
+    "chrome-extension",
+    "firefox-extension"
+  ],
+  "homepage": "https://github.com/titoinemb/GetKickBearerToken-extension#readme",
+  "bugs": {
+    "url": "https://github.com/titoinemb/GetKickBearerToken-extension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titoinemb/GetKickBearerToken-extension.git"
+  },
+  "license": "MIT",
+  "author": "titoineMB",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx nodemon"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.32",
+    "clean-css": "^5.3.3",
+    "esbuild": "^0.27.2",
+    "nodemon": "^3.1.11",
+    "pug": "^3.0.3",
+    "sass": "^1.97.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title GetKickBearerToken-extension
+    link(rel="stylesheet", href="style.css")
+  body
+    div(class="app")
+      div(class="title") Your Bearer Token: 
+      input(type="text", id="token" value="token..." readonly)
+      span Go to kick.com, log in, and click the button
+      button(id="reloadBtn") Get cookie
+  script(src="script.js")
